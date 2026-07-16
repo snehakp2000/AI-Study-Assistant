@@ -1,0 +1,147 @@
+.main-register{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding:1rem;
+
+    
+}
+
+.card-register{
+    width:90%;
+    max-width:450px;
+    background-color:var(--card-color);
+    padding:2rem;
+    border-radius:var(--radius);
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.45);
+}
+
+.card-register h1{
+    font-size:2rem;
+    font-weight:700;
+    text-align:center;
+    margin-bottom:1rem;
+}
+
+.card-register h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    color: var(--text-secondary);
+
+    margin-bottom: 1rem;
+}
+
+.card-register input {
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+    border-radius: var(--radius);
+
+    outline: none;
+
+    font-size: 1rem;
+}
+
+.card-register button {
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+    border-radius: var(--radius);
+
+    background-color: var(--primary-color);
+
+    color: white;
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.card-register button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.login-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    margin-top: 0.5rem;
+}
+
+.login-text span {
+    color: var(--text-secondary);
+}
+
+.login-text button {
+    width: auto;
+
+    background: transparent;
+
+    color: var(--primary-color);
+
+    padding: 0;
+
+    box-shadow: none;
+}
+
+.login-text button:hover {
+    transform: none;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .card-register {
+        padding: 1.5rem;
+    }
+
+    .card-register h1 {
+        font-size: 1.6rem;
+    }
+
+    .card-register h2 {
+        font-size: 1rem;
+    }
+}
+.login-text{
+
+    margin-top:20px;
+
+    text-align:center;
+
+    font-size:15px;
+
+    color:var(--text-secondary);
+}
+
+.login-link{
+
+    color:var(--primary-color);
+
+    font-weight:600;
+
+    text-decoration:none;
+
+    margin-left:5px;
+}
+
+.login-link:hover{
+
+    text-decoration:underline;
+}

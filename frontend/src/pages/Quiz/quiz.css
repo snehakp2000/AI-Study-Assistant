@@ -1,0 +1,317 @@
+/* ===========================
+   Quiz Page
+=========================== */
+
+.quiz-page{
+    min-height:100vh;
+    background:var(--background-color);
+}
+
+.quiz-layout{
+    display:flex;
+}
+
+.quiz-main{
+    flex:1;
+    margin-left:250px;
+    margin-top:70px;
+    padding:2rem;
+}
+
+/* ===========================
+   Header
+=========================== */
+
+.quiz-header{
+    margin-bottom:30px;
+}
+
+.quiz-header h1{
+    margin-bottom:8px;
+}
+
+.quiz-header p{
+    color:#666;
+}
+
+/* ===========================
+   Form
+=========================== */
+
+.form-group{
+    margin-bottom:20px;
+}
+
+.form-group label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+.form-group select{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #dcdcdc;
+
+    border-radius:8px;
+
+    outline:none;
+
+    font-size:15px;
+}
+
+.form-group select:focus{
+
+    border-color:var(--primary-color);
+}
+
+/* ===========================
+   Buttons
+=========================== */
+
+.generate-btn,
+.submit-btn{
+
+    padding:12px 24px;
+
+    background:var(--primary-color);
+
+    color:var(--background-color);
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    margin-top:15px;
+}
+
+.generate-btn:hover,
+.submit-btn:hover{
+
+    opacity:.9;
+}
+
+/* ===========================
+   Empty State
+=========================== */
+
+.empty-state{
+
+    margin-top:40px;
+
+    padding:30px;
+
+    text-align:center;
+
+    background:var(--card-color);
+
+    border-radius:10px;
+}
+
+.empty-state h2{
+
+    margin-bottom:10px;
+}
+
+/* ===========================
+   Question Card
+=========================== */
+
+.question-card{
+
+    margin-top:25px;
+
+    background:var(--card-color);
+
+    border-radius:10px;
+
+    padding:20px;
+
+    border:1px solid #e5e5e5;
+}
+
+.question-number{
+
+    color:var(--primary-color);
+
+    font-size:14px;
+
+    font-weight:600;
+}
+
+.question-card h3{
+
+    margin:15px 0 20px;
+
+    line-height:1.6;
+
+    font-size:18px;
+}
+
+/* ===========================
+   Options
+=========================== */
+
+.options{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+}
+
+.option-card{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:12px 15px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.2s;
+}
+
+.option-card:hover{
+
+    border-color:var(--primary-color);
+
+    background:var(--background-color);
+}
+
+.option-card input{
+
+    width:18px;
+
+    height:18px;
+}
+
+.option-card span{
+
+    line-height:1.5;
+
+    flex:1;
+}
+
+/* Selected */
+
+.option-card.selected{
+
+    border-color:var(--primary-color);
+
+    background:var(--background-color);
+}
+
+/* Correct */
+
+.option-card.correct{
+
+    background:#57de79;
+
+    border-color:#4CAF50;
+}
+
+/* Wrong */
+
+.option-card.wrong{
+
+    background:#dd3e3e;
+
+    border-color:#f44336;
+}
+
+/* ===========================
+   Score Card
+=========================== */
+
+.score-card{
+
+    margin-top:30px;
+
+    padding:20px;
+
+    text-align:center;
+
+    border-radius:10px;
+
+    background:var(--card-color);
+
+    border:1px solid #ddd;
+}
+
+.score-card h1{
+
+    color:var(--primary-color);
+
+    margin:10px 0;
+}
+
+/* ===========================
+   Quiz Actions
+=========================== */
+
+.quiz-actions{
+
+    display:flex;
+
+    gap:15px;
+
+    justify-content:center;
+
+    margin-top:20px;
+}
+
+.quiz-actions button{
+
+    padding:10px 20px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    background:var(--primary-color);
+
+    color:var(--background-color);
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:768px){
+
+    .quiz-main{
+
+        margin-left:0;
+
+        padding:1rem;
+    }
+
+    .quiz-actions{
+
+        flex-direction:column;
+    }
+
+    .quiz-actions button{
+
+        width:100%;
+    }
+
+}

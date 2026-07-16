@@ -1,0 +1,19 @@
+.quick-actions {
+    margin-top: 2rem;
+}
+
+.quick-actions h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+
+    margin-bottom: 1rem;
+}
+
+.quick-grid {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+
+    gap: 1.5rem;
+}
