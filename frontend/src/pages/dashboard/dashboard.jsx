@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import Navbar from "../../components/Navbar/Navbar";
-import Sidebar from "../../components/Sidebar/Sidebar";
+import Navbar from "../../components/navbar/navbar";
+import Sidebar from "../../components/sidebar/sidebar";
 import WelcomeCard from "../../components/welcomecard/welcomeCard";
 import StatCard from "../../components/StatCard/statCard";
 import QuickActions from "../../components/QuickActions/QuickActions";

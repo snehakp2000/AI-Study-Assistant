@@ -1,5 +1,5 @@
 import  Navbar from "../../components/navbar/navbar";
-import Sidebar from "../../components/Sidebar/Sidebar";
+import Sidebar from "../../components/sidebar/sidebar";
 import "./uploadPDF.css";
 import { uploadPdf } from "../../services/pdfService";
 import {useState} from "react";

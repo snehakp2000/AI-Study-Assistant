@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import {forgotPassword} from '../../services/authService';
 import { toast } from 'react-toastify';
 
-import "./ForgotPassword.css";
+import "./forgotPassword.css";
 
 function ForgotPassword() {
 
