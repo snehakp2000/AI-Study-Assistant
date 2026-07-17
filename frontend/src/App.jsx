@@ -7,7 +7,7 @@ import Dashboard from './pages/dashboard/dashboard'
 import Notes from './pages/notes/notes';
 import UploadPDF from './pages/uploadPDF/uploadPDF';
 import Summary from './pages/Summary/Summary';
-import Quiz from './pages/Quiz/quiz';
+import Quiz from './pages/Quiz/Quiz';
 import Flashcard from './pages/flashcard/flashcard';
 import Profile from './pages/profile/profile';
 
