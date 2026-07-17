@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import Navbar from "../../components/Navbar/Navbar";
-import Sidebar from "../../components/Sidebar/Sidebar";
+import Navbar from "../../components/navbar/navbar";
+import Sidebar from "../../components/sidebar/sidebar";
 import NoteCard from "../../components/notecard/notecard";
-import NoteModal from "../../components/NoteModal/NoteModal";
+import NoteModal from "../../components/noteModal/noteModal";
 import { toast } from 'react-toastify';
 
 import {

@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "./navbar.css";
 import { FaBell, FaUserCircle } from "react-icons/fa";
 
 function Navbar() {

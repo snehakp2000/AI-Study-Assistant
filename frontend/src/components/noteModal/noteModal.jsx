@@ -1,4 +1,4 @@
-import "./NoteModal.css";
+import "./noteModal.css";
 import { useState, useEffect } from "react";
 
 function NoteModal({ onClose, onSave, note, isEditing }) {
