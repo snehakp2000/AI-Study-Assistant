@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Sidebar from "../../components/Sidebar/Sidebar";
-import "./Quiz.css";
+import "./quiz.css";
 
 import { getAllNotes } from "../../services/noteService";
 import { toast } from 'react-toastify';
